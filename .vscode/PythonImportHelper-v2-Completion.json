@@ -85,138 +85,6 @@
         "documentation": {}
     },
     {
-        "label": "LLMManager",
-        "importPath": "llm",
-        "description": "llm",
-        "isExtraImport": true,
-        "detail": "llm",
-        "documentation": {}
-    },
-    {
-        "label": "Console",
-        "importPath": "rich.console",
-        "description": "rich.console",
-        "isExtraImport": true,
-        "detail": "rich.console",
-        "documentation": {}
-    },
-    {
-        "label": "Panel",
-        "importPath": "rich.panel",
-        "description": "rich.panel",
-        "isExtraImport": true,
-        "detail": "rich.panel",
-        "documentation": {}
-    },
-    {
-        "label": "Text",
-        "importPath": "rich.text",
-        "description": "rich.text",
-        "isExtraImport": true,
-        "detail": "rich.text",
-        "documentation": {}
-    },
-    {
-        "label": "inquirer",
-        "importPath": "InquirerPy",
-        "description": "InquirerPy",
-        "isExtraImport": true,
-        "detail": "InquirerPy",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "config",
-        "description": "config",
-        "detail": "config",
-        "documentation": {}
-    },
-    {
-        "label": "Prompt",
-        "importPath": "rich.prompt",
-        "description": "rich.prompt",
-        "isExtraImport": true,
-        "detail": "rich.prompt",
-        "documentation": {}
-    },
-    {
-        "label": "Live",
-        "importPath": "rich.live",
-        "description": "rich.live",
-        "isExtraImport": true,
-        "detail": "rich.live",
-        "documentation": {}
-    },
-    {
-        "label": "Spinner",
-        "importPath": "rich.spinner",
-        "description": "rich.spinner",
-        "isExtraImport": true,
-        "detail": "rich.spinner",
-        "documentation": {}
-    },
-    {
-        "label": "ReactiveAgent",
-        "importPath": "agents",
-        "description": "agents",
-        "isExtraImport": true,
-        "detail": "agents",
-        "documentation": {}
-    },
-    {
-        "label": "create_conn_url",
-        "importPath": "utils",
-        "description": "utils",
-        "isExtraImport": true,
-        "detail": "utils",
-        "documentation": {}
-    },
-    {
-        "label": "reserved_words",
-        "importPath": "utils",
-        "description": "utils",
-        "isExtraImport": true,
-        "detail": "utils",
-        "documentation": {}
-    },
-    {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "warnings",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "warnings",
-        "description": "warnings",
-        "detail": "warnings",
-        "documentation": {}
-    },
-    {
-        "label": "AVAILABLE_MODEL_PROVIDERS",
-        "importPath": "utils.constants",
-        "description": "utils.constants",
-        "isExtraImport": true,
-        "detail": "utils.constants",
-        "documentation": {}
-    },
-    {
-        "label": "argparse",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "argparse",
-        "description": "argparse",
-        "detail": "argparse",
-        "documentation": {}
-    },
-    {
         "label": "Union",
         "importPath": "typing",
         "description": "typing",
@@ -265,11 +133,94 @@
         "documentation": {}
     },
     {
+        "label": "db_agent.config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "db_agent.config",
+        "description": "db_agent.config",
+        "detail": "db_agent.config",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "inquirer",
+        "importPath": "InquirerPy",
+        "description": "InquirerPy",
+        "isExtraImport": true,
+        "detail": "InquirerPy",
+        "documentation": {}
+    },
+    {
+        "label": "Prompt",
+        "importPath": "rich.prompt",
+        "description": "rich.prompt",
+        "isExtraImport": true,
+        "detail": "rich.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "Live",
+        "importPath": "rich.live",
+        "description": "rich.live",
+        "isExtraImport": true,
+        "detail": "rich.live",
+        "documentation": {}
+    },
+    {
+        "label": "Spinner",
+        "importPath": "rich.spinner",
+        "description": "rich.spinner",
+        "isExtraImport": true,
+        "detail": "rich.spinner",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
         "documentation": {}
     },
     {
@@ -372,37 +323,73 @@
     {
         "label": "ReactiveAgent",
         "kind": 6,
-        "importPath": "agents.ReactiveAgent",
-        "description": "agents.ReactiveAgent",
+        "importPath": "db_agent.agents.ReactiveAgent",
+        "description": "db_agent.agents.ReactiveAgent",
         "peekOfCode": "class ReactiveAgent:\n    def __init__(self, llm_provider:str, llm_model: str,db_conn_url:str): \n        self.llm = LLMManager.get_llm(llm_provider,llm_model)\n        self.tools = []\n        self.syst_prompt = hub.pull(\"hwchase17/react\")\n        self.db_conn_url = db_conn_url\n    async def _run_async(self,message,thread_id:str):\n        async with MultiServerMCPClient(\n            {\n                \"postgres\": {",
-        "detail": "agents.ReactiveAgent",
+        "detail": "db_agent.agents.ReactiveAgent",
         "documentation": {}
     },
     {
         "label": "memory",
         "kind": 5,
-        "importPath": "agents.ReactiveAgent",
-        "description": "agents.ReactiveAgent",
+        "importPath": "db_agent.agents.ReactiveAgent",
+        "description": "db_agent.agents.ReactiveAgent",
         "peekOfCode": "memory = MemorySaver()\nimport os\nos.environ[\"LANGSMITH_TRACING_ENABLED\"] = \"false\"\nsys_prompt = \"\"\"\nYou are an intelligent database assistant capable of querying a PostgreSQL database. \nYour primary goal is to accurately retrieve data based on the user's query while efficiently utilizing the database schema information. \nAdditionally, when asked to improve the performance of a query, you should analyze it using PostgreSQL's `EXPLAIN ANALYZE` and suggest improvements, including index recommendations.\nFurthermore, present the results in a well-structured, visually appealing format suitable for a CLI environment. \nUse markdown-like formatting to enhance readability.\n---",
-        "detail": "agents.ReactiveAgent",
+        "detail": "db_agent.agents.ReactiveAgent",
         "documentation": {}
     },
     {
         "label": "os.environ[\"LANGSMITH_TRACING_ENABLED\"]",
         "kind": 5,
-        "importPath": "agents.ReactiveAgent",
-        "description": "agents.ReactiveAgent",
+        "importPath": "db_agent.agents.ReactiveAgent",
+        "description": "db_agent.agents.ReactiveAgent",
         "peekOfCode": "os.environ[\"LANGSMITH_TRACING_ENABLED\"] = \"false\"\nsys_prompt = \"\"\"\nYou are an intelligent database assistant capable of querying a PostgreSQL database. \nYour primary goal is to accurately retrieve data based on the user's query while efficiently utilizing the database schema information. \nAdditionally, when asked to improve the performance of a query, you should analyze it using PostgreSQL's `EXPLAIN ANALYZE` and suggest improvements, including index recommendations.\nFurthermore, present the results in a well-structured, visually appealing format suitable for a CLI environment. \nUse markdown-like formatting to enhance readability.\n---\n### Guidelines:\n1. **Context Initialization:**",
-        "detail": "agents.ReactiveAgent",
+        "detail": "db_agent.agents.ReactiveAgent",
         "documentation": {}
     },
     {
         "label": "sys_prompt",
         "kind": 5,
-        "importPath": "agents.ReactiveAgent",
-        "description": "agents.ReactiveAgent",
+        "importPath": "db_agent.agents.ReactiveAgent",
+        "description": "db_agent.agents.ReactiveAgent",
         "peekOfCode": "sys_prompt = \"\"\"\nYou are an intelligent database assistant capable of querying a PostgreSQL database. \nYour primary goal is to accurately retrieve data based on the user's query while efficiently utilizing the database schema information. \nAdditionally, when asked to improve the performance of a query, you should analyze it using PostgreSQL's `EXPLAIN ANALYZE` and suggest improvements, including index recommendations.\nFurthermore, present the results in a well-structured, visually appealing format suitable for a CLI environment. \nUse markdown-like formatting to enhance readability.\n---\n### Guidelines:\n1. **Context Initialization:**\n   - During initialization, gather the DDL (Data Definition Language) of all available tables in the database to understand the structure and relationships.",
-        "detail": "agents.ReactiveAgent",
+        "detail": "db_agent.agents.ReactiveAgent",
+        "documentation": {}
+    },
+    {
+        "label": "LLMManager",
+        "kind": 6,
+        "importPath": "db_agent.llm.LLMManager",
+        "description": "db_agent.llm.LLMManager",
+        "peekOfCode": "class LLMManager:\n    \"\"\"Manage the LLM model and its configuration\"\"\"\n    @staticmethod\n    def get_llm(provider,model: str) -> Union[OpenAI, ChatOpenAI, ChatOllama, ChatGroq,ChatGoogleGenerativeAI]:\n        \"\"\"\n        Returns an LLM instance based on the provider and model specified.\n        \"\"\"\n        provider = provider.lower()\n        if provider == \"openai\":\n            if model.startswith(\"gpt-4\") or model.startswith(\"gpt-3.5\"):",
+        "detail": "db_agent.llm.LLMManager",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_DIR",
+        "kind": 5,
+        "importPath": "db_agent.utils.constants",
+        "description": "db_agent.utils.constants",
+        "peekOfCode": "CONFIG_DIR = Path.home() / \".db_chatcli\"\nCONFIG_FILE = CONFIG_DIR / \"config.json\"\nAVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
+        "detail": "db_agent.utils.constants",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_FILE",
+        "kind": 5,
+        "importPath": "db_agent.utils.constants",
+        "description": "db_agent.utils.constants",
+        "peekOfCode": "CONFIG_FILE = CONFIG_DIR / \"config.json\"\nAVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
+        "detail": "db_agent.utils.constants",
+        "documentation": {}
+    },
+    {
+        "label": "AVAILABLE_MODEL_PROVIDERS",
+        "kind": 5,
+        "importPath": "db_agent.utils.constants",
+        "description": "db_agent.utils.constants",
+        "peekOfCode": "AVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
+        "detail": "db_agent.utils.constants",
         "documentation": {}
     },
     {
@@ -410,7 +397,7 @@
         "kind": 2,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "def display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id\n    thread_id = uuid.uuid4()\ndef handle_reserved_word(word):",
+        "peekOfCode": "def display_header():\n    console.print(Panel.fit(\n        Text(\"AI-Powered PostgreSQL Assistant\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id\n    thread_id = uuid.uuid4()\ndef handle_reserved_word(word):",
         "detail": "db_agent.main",
         "documentation": {}
     },
@@ -491,7 +478,7 @@
         "kind": 2,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "def main():\n    \"\"\"Main entry point for the application.\"\"\"\n    parser = argparse.ArgumentParser(\n        description=\"DBPal - Your friendly database companion\",\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        epilog=\"\"\"\nExamples:\n  # Start DBPal\n  dbpal\n  # Configure API key",
+        "peekOfCode": "def main():\n    display_header()\n    choice = inquirer.select(\n        message=\"Please select an option:\",\n        choices=[\n            \"Save API Key\",\n            \"Save Database Info\",\n            \"Show Configuration\",\n            \"Configure LLM\",\n            \"Chat\",",
         "detail": "db_agent.main",
         "documentation": {}
     },
@@ -500,7 +487,7 @@
         "kind": 5,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "os.environ[\"PYTHONWARNINGS\"] = \"ignore\"\nos.environ[\"GRPC_VERBOSITY\"] = \"ERROR\"\nos.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",",
+        "peekOfCode": "os.environ[\"PYTHONWARNINGS\"] = \"ignore\"\nos.environ[\"GRPC_VERBOSITY\"] = \"ERROR\"\nos.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"AI-Powered PostgreSQL Assistant\", style=\"bold cyan\"),\n        title=\"Welcome\",",
         "detail": "db_agent.main",
         "documentation": {}
     },
@@ -509,7 +496,7 @@
         "kind": 5,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "os.environ[\"GRPC_VERBOSITY\"] = \"ERROR\"\nos.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"",
+        "peekOfCode": "os.environ[\"GRPC_VERBOSITY\"] = \"ERROR\"\nos.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"AI-Powered PostgreSQL Assistant\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"",
         "detail": "db_agent.main",
         "documentation": {}
     },
@@ -518,7 +505,7 @@
         "kind": 5,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "os.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))",
+        "peekOfCode": "os.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"AI-Powered PostgreSQL Assistant\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))",
         "detail": "db_agent.main",
         "documentation": {}
     },
@@ -527,7 +514,7 @@
         "kind": 5,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "os.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():",
+        "peekOfCode": "os.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"AI-Powered PostgreSQL Assistant\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():",
         "detail": "db_agent.main",
         "documentation": {}
     },
@@ -536,7 +523,7 @@
         "kind": 5,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "console = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id",
+        "peekOfCode": "console = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"AI-Powered PostgreSQL Assistant\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id",
         "detail": "db_agent.main",
         "documentation": {}
     },
@@ -545,44 +532,8 @@
         "kind": 5,
         "importPath": "db_agent.main",
         "description": "db_agent.main",
-        "peekOfCode": "thread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id\n    thread_id = uuid.uuid4()",
+        "peekOfCode": "thread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"AI-Powered PostgreSQL Assistant\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id\n    thread_id = uuid.uuid4()",
         "detail": "db_agent.main",
-        "documentation": {}
-    },
-    {
-        "label": "LLMManager",
-        "kind": 6,
-        "importPath": "llm.LLMManager",
-        "description": "llm.LLMManager",
-        "peekOfCode": "class LLMManager:\n    \"\"\"Manage the LLM model and its configuration\"\"\"\n    @staticmethod\n    def get_llm(provider,model: str) -> Union[OpenAI, ChatOpenAI, ChatOllama, ChatGroq,ChatGoogleGenerativeAI]:\n        \"\"\"\n        Returns an LLM instance based on the provider and model specified.\n        \"\"\"\n        provider = provider.lower()\n        if provider == \"openai\":\n            if model.startswith(\"gpt-4\") or model.startswith(\"gpt-3.5\"):",
-        "detail": "llm.LLMManager",
-        "documentation": {}
-    },
-    {
-        "label": "CONFIG_DIR",
-        "kind": 5,
-        "importPath": "utils.constants",
-        "description": "utils.constants",
-        "peekOfCode": "CONFIG_DIR = Path.home() / \".db_chatcli\"\nCONFIG_FILE = CONFIG_DIR / \"config.json\"\nAVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
-        "detail": "utils.constants",
-        "documentation": {}
-    },
-    {
-        "label": "CONFIG_FILE",
-        "kind": 5,
-        "importPath": "utils.constants",
-        "description": "utils.constants",
-        "peekOfCode": "CONFIG_FILE = CONFIG_DIR / \"config.json\"\nAVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
-        "detail": "utils.constants",
-        "documentation": {}
-    },
-    {
-        "label": "AVAILABLE_MODEL_PROVIDERS",
-        "kind": 5,
-        "importPath": "utils.constants",
-        "description": "utils.constants",
-        "peekOfCode": "AVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
-        "detail": "utils.constants",
         "documentation": {}
     }
 ]

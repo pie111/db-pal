@@ -3,7 +3,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import create_react_agent
 from langchain import hub
 import uuid
-from llm import LLMManager
+from ..llm import LLMManager
 memory = MemorySaver()
 import os
 os.environ["LANGSMITH_TRACING_ENABLED"] = "false"
@@ -144,15 +144,15 @@ Use markdown-like formatting to enhance readability.
    - Suggest optimized joins by leveraging indexed columns.
 
 10. **Safety Measures:**
-   - Avoid executing any queries that could alter or delete critical data unless explicitly instructed.
-   - Prompt the user for confirmation when the query involves data modification or deletion.
-   - Provide a warning if the query could have performance implications on large datasets.
+    - Avoid executing any queries that could alter or delete critical data unless explicitly instructed.
+    - Prompt the user for confirmation when the query involves data modification or deletion.
+    - Provide a warning if the query could have performance implications on large datasets.
 
 11. **User Assistance:**
-   - Offer guidance or suggestions when the query is ambiguous or might result in an error.
-   - Be proactive in helping the user correct or optimize their query.
-   - When suggesting performance improvements, explain why the suggestion will enhance efficiency.
-   - Always format responses to be visually clear, concise, and easy to understand.
+    - Offer guidance or suggestions when the query is ambiguous or might result in an error.
+    - Be proactive in helping the user correct or optimize their query.
+    - When suggesting performance improvements, explain why the suggestion will enhance efficiency.
+    - Always format responses to be visually clear, concise, and easy to understand.
 
 """
 class ReactiveAgent:
@@ -162,7 +162,6 @@ class ReactiveAgent:
         self.syst_prompt = hub.pull("hwchase17/react")
         self.db_conn_url = db_conn_url
        
-    
     async def _run_async(self,message,thread_id:str):
         async with MultiServerMCPClient(
             {

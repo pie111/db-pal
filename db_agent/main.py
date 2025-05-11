@@ -3,17 +3,18 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 from InquirerPy import inquirer
-import config as local_config
+from . import config as local_config
 from rich.prompt import Prompt
 from rich.live import Live
 from rich.spinner import Spinner
-from agents import ReactiveAgent
-from utils import create_conn_url,reserved_words
+from .agents import ReactiveAgent
+from .utils import create_conn_url,reserved_words
 import asyncio
 import warnings
 import os
-from utils.constants import AVAILABLE_MODEL_PROVIDERS
-import argparse
+from .utils.constants import AVAILABLE_MODEL_PROVIDERS
+
+
 warnings.filterwarnings("ignore")
 os.environ["PYTHONWARNINGS"] = "ignore"
 os.environ["GRPC_VERBOSITY"] = "ERROR"
@@ -25,7 +26,7 @@ thread_id = uuid.uuid4()
 
 def display_header():
     console.print(Panel.fit(
-        Text("My CLI Configuration Tool", style="bold cyan"),
+        Text("AI-Powered PostgreSQL Assistant", style="bold cyan"),
         title="Welcome",
         border_style="bright_magenta"
     ))
@@ -155,22 +156,6 @@ async def display_thinking():
             await asyncio.sleep(0.1)  # Refresh rate
 
 def main():
-    """Main entry point for the application."""
-    parser = argparse.ArgumentParser(
-        description="DBPal - Your friendly database companion",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Examples:
-  # Start DBPal
-  dbpal
-
-  # Configure API key
-  dbpal --api-key YOUR_API_KEY
-
-  # Configure database connection
-  dbpal --db-host localhost --db-user myuser --db-password mypass --db-name mydb
-        """,
-    )
     display_header()
     choice = inquirer.select(
         message="Please select an option:",

@@ -3,8 +3,7 @@ from langchain_openai import OpenAI, ChatOpenAI
 from langchain_ollama import ChatOllama
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
-import config as local_config
-
+import db_agent.config as local_config
 
 
 class LLMManager:

@@ -1,4 +1,4 @@
-# DBPal
+# db_agent
 
 Your friendly database companion - A powerful tool that uses LLM to help with database operations.
 
@@ -6,13 +6,13 @@ Your friendly database companion - A powerful tool that uses LLM to help with da
 
 ### From PyPI
 ```bash
-pip install dbpal
+pip install db_agent
 ```
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/dbpal.git
-cd dbpal
+git clone https://github.com/yourusername/db_agent.git
+cd db_agent
 pip install -e .
 ```
 
@@ -20,18 +20,18 @@ pip install -e .
 
 ### Basic Commands
 ```bash
-# Start DBPal
-dbpal
+# Start db_agent
+dbagent
 
 # Configure API key
-dbpal --api-key YOUR_API_KEY
+dbagent --api-key YOUR_API_KEY
 
 # Configure database connection
-dbpal --db-host localhost --db-user myuser --db-password mypass --db-name mydb
+dbagent --db-host localhost --db-user myuser --db-password mypass --db-name mydb
 ```
 
 ### Configuration
-DBPal stores configuration in `~/.db_agent/config.json`. Sensitive data (API keys and database credentials) are encrypted at rest.
+db_agent stores configuration in `~/.db_agent/config.json`. Sensitive data (API keys and database credentials) are encrypted at rest.
 
 ## Security Features
 
