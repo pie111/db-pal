@@ -1,0 +1,588 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "MultiServerMCPClient",
+        "importPath": "langchain_mcp_adapters.client",
+        "description": "langchain_mcp_adapters.client",
+        "isExtraImport": true,
+        "detail": "langchain_mcp_adapters.client",
+        "documentation": {}
+    },
+    {
+        "label": "MemorySaver",
+        "importPath": "langgraph.checkpoint.memory",
+        "description": "langgraph.checkpoint.memory",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.memory",
+        "documentation": {}
+    },
+    {
+        "label": "create_react_agent",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "hub",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "LLMManager",
+        "importPath": "llm",
+        "description": "llm",
+        "isExtraImport": true,
+        "detail": "llm",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Panel",
+        "importPath": "rich.panel",
+        "description": "rich.panel",
+        "isExtraImport": true,
+        "detail": "rich.panel",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "rich.text",
+        "description": "rich.text",
+        "isExtraImport": true,
+        "detail": "rich.text",
+        "documentation": {}
+    },
+    {
+        "label": "inquirer",
+        "importPath": "InquirerPy",
+        "description": "InquirerPy",
+        "isExtraImport": true,
+        "detail": "InquirerPy",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "config",
+        "description": "config",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "Prompt",
+        "importPath": "rich.prompt",
+        "description": "rich.prompt",
+        "isExtraImport": true,
+        "detail": "rich.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "Live",
+        "importPath": "rich.live",
+        "description": "rich.live",
+        "isExtraImport": true,
+        "detail": "rich.live",
+        "documentation": {}
+    },
+    {
+        "label": "Spinner",
+        "importPath": "rich.spinner",
+        "description": "rich.spinner",
+        "isExtraImport": true,
+        "detail": "rich.spinner",
+        "documentation": {}
+    },
+    {
+        "label": "ReactiveAgent",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "create_conn_url",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "reserved_words",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "AVAILABLE_MODEL_PROVIDERS",
+        "importPath": "utils.constants",
+        "description": "utils.constants",
+        "isExtraImport": true,
+        "detail": "utils.constants",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOllama",
+        "importPath": "langchain_ollama",
+        "description": "langchain_ollama",
+        "isExtraImport": true,
+        "detail": "langchain_ollama",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGroq",
+        "importPath": "langchain_groq",
+        "description": "langchain_groq",
+        "isExtraImport": true,
+        "detail": "langchain_groq",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"db-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"db-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"db-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"db-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"db-agent\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "ReactiveAgent",
+        "kind": 6,
+        "importPath": "agents.ReactiveAgent",
+        "description": "agents.ReactiveAgent",
+        "peekOfCode": "class ReactiveAgent:\n    def __init__(self, llm_provider:str, llm_model: str,db_conn_url:str): \n        self.llm = LLMManager.get_llm(llm_provider,llm_model)\n        self.tools = []\n        self.syst_prompt = hub.pull(\"hwchase17/react\")\n        self.db_conn_url = db_conn_url\n    async def _run_async(self,message,thread_id:str):\n        async with MultiServerMCPClient(\n            {\n                \"postgres\": {",
+        "detail": "agents.ReactiveAgent",
+        "documentation": {}
+    },
+    {
+        "label": "memory",
+        "kind": 5,
+        "importPath": "agents.ReactiveAgent",
+        "description": "agents.ReactiveAgent",
+        "peekOfCode": "memory = MemorySaver()\nimport os\nos.environ[\"LANGSMITH_TRACING_ENABLED\"] = \"false\"\nsys_prompt = \"\"\"\nYou are an intelligent database assistant capable of querying a PostgreSQL database. \nYour primary goal is to accurately retrieve data based on the user's query while efficiently utilizing the database schema information. \nAdditionally, when asked to improve the performance of a query, you should analyze it using PostgreSQL's `EXPLAIN ANALYZE` and suggest improvements, including index recommendations.\nFurthermore, present the results in a well-structured, visually appealing format suitable for a CLI environment. \nUse markdown-like formatting to enhance readability.\n---",
+        "detail": "agents.ReactiveAgent",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGSMITH_TRACING_ENABLED\"]",
+        "kind": 5,
+        "importPath": "agents.ReactiveAgent",
+        "description": "agents.ReactiveAgent",
+        "peekOfCode": "os.environ[\"LANGSMITH_TRACING_ENABLED\"] = \"false\"\nsys_prompt = \"\"\"\nYou are an intelligent database assistant capable of querying a PostgreSQL database. \nYour primary goal is to accurately retrieve data based on the user's query while efficiently utilizing the database schema information. \nAdditionally, when asked to improve the performance of a query, you should analyze it using PostgreSQL's `EXPLAIN ANALYZE` and suggest improvements, including index recommendations.\nFurthermore, present the results in a well-structured, visually appealing format suitable for a CLI environment. \nUse markdown-like formatting to enhance readability.\n---\n### Guidelines:\n1. **Context Initialization:**",
+        "detail": "agents.ReactiveAgent",
+        "documentation": {}
+    },
+    {
+        "label": "sys_prompt",
+        "kind": 5,
+        "importPath": "agents.ReactiveAgent",
+        "description": "agents.ReactiveAgent",
+        "peekOfCode": "sys_prompt = \"\"\"\nYou are an intelligent database assistant capable of querying a PostgreSQL database. \nYour primary goal is to accurately retrieve data based on the user's query while efficiently utilizing the database schema information. \nAdditionally, when asked to improve the performance of a query, you should analyze it using PostgreSQL's `EXPLAIN ANALYZE` and suggest improvements, including index recommendations.\nFurthermore, present the results in a well-structured, visually appealing format suitable for a CLI environment. \nUse markdown-like formatting to enhance readability.\n---\n### Guidelines:\n1. **Context Initialization:**\n   - During initialization, gather the DDL (Data Definition Language) of all available tables in the database to understand the structure and relationships.",
+        "detail": "agents.ReactiveAgent",
+        "documentation": {}
+    },
+    {
+        "label": "display_header",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id\n    thread_id = uuid.uuid4()\ndef handle_reserved_word(word):",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "reset_session",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def reset_session():\n    global thread_id\n    thread_id = uuid.uuid4()\ndef handle_reserved_word(word):\n    \"\"\"Handle the reserved word based on its action.\"\"\"\n    if word == \"exit\":\n        console.print(\"[bold red]Exiting the chat. Goodbye![/bold red]\")\n        return False\n    elif word == \"help\":\n        console.print(\"[bold cyan]Available commands:[/bold cyan] exit, help, clear, reset\")",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "handle_reserved_word",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def handle_reserved_word(word):\n    \"\"\"Handle the reserved word based on its action.\"\"\"\n    if word == \"exit\":\n        console.print(\"[bold red]Exiting the chat. Goodbye![/bold red]\")\n        return False\n    elif word == \"help\":\n        console.print(\"[bold cyan]Available commands:[/bold cyan] exit, help, clear, reset\")\n    elif word == \"clear\":\n        console.clear()\n        console.print(\"[bold green]Chat cleared![/bold green]\")",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "save_api_key",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def save_api_key():\n    api_key = inquirer.text(\n        message=\"🔑 Enter your API key:\",\n        validate=lambda x: len(x) > 0 or \"API key cannot be empty.\"\n    ).execute()\n    local_config.save_api_key(api_key)\n    console.print(\"[green]✔ API key saved successfully![/green]\")\ndef save_db_info():\n    host = inquirer.text(\n        message=\"🌐 Database Host:\",",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "save_db_info",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def save_db_info():\n    host = inquirer.text(\n        message=\"🌐 Database Host:\",\n        default=\"localhost\"\n    ).execute()\n    user = inquirer.text(\n        message=\"👤 Database User:\"\n    ).execute()\n    password = inquirer.secret(\n        message=\"🔑 Database Password:\"",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "show_config",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def show_config():\n    config = local_config.load_config()\n    if config:\n        panel_content = \"\"\n        for key, value in config.items():\n            if key == \"db_info\":\n                db_details = \"\\n\".join([f\"{k}: {v}\" for k, v in value.items()])\n                panel_content += f\"[bold yellow]Database Information:[/bold yellow]\\n{db_details}\\n\"\n            else:\n                panel_content += f\"[bold yellow]{key}:[/bold yellow] {value}\\n\"",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "show_available_commands",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def show_available_commands():\n    \"\"\"Display available commands.\"\"\"\n    console.print(\"\\n[bold cyan]Available Commands:[/bold cyan]\")\n    for command, description in reserved_words.items():\n        console.print(f\"  [bold green]{command}[/bold green] - {description}\")\n    console.print(\"\")\ndef chat():\n    show_available_commands()\n    while True:\n        prompt = Prompt.ask(\"Enter your question:\")",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def chat():\n    show_available_commands()\n    while True:\n        prompt = Prompt.ask(\"Enter your question:\")\n        if not prompt:\n            console.print(\"[red]⚠ Please enter your question.[/red]\")\n            continue\n        if prompt.lower() in reserved_words:\n            if not handle_reserved_word(prompt.lower()):\n                break",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "save_model_config",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def save_model_config():\n    choice = inquirer.select(\n            message=\"Please select the available LLM providers:\",\n            choices= AVAILABLE_MODEL_PROVIDERS + [\"Exit\"],\n            default=\"google\"\n        ).execute()\n    if choice == \"Exit\":\n        console.print(\"[red]✖ Operation cancelled by the user.[/red]\")\n        return\n    provider_name = inquirer.text(",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "def main():\n    \"\"\"Main entry point for the application.\"\"\"\n    parser = argparse.ArgumentParser(\n        description=\"DBPal - Your friendly database companion\",\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        epilog=\"\"\"\nExamples:\n  # Start DBPal\n  dbpal\n  # Configure API key",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PYTHONWARNINGS\"]",
+        "kind": 5,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "os.environ[\"PYTHONWARNINGS\"] = \"ignore\"\nos.environ[\"GRPC_VERBOSITY\"] = \"ERROR\"\nos.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GRPC_VERBOSITY\"]",
+        "kind": 5,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "os.environ[\"GRPC_VERBOSITY\"] = \"ERROR\"\nos.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"GRPC_TRACE\"]",
+        "kind": 5,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "os.environ[\"GRPC_TRACE\"] = \"\"\nos.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"TF_CPP_MIN_LOG_LEVEL\"]",
+        "kind": 5,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "os.environ[\"TF_CPP_MIN_LOG_LEVEL\"] = \"3\" \nconsole = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "console",
+        "kind": 5,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "console = Console()\nthread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "thread_id",
+        "kind": 5,
+        "importPath": "db_agent.main",
+        "description": "db_agent.main",
+        "peekOfCode": "thread_id = uuid.uuid4()\ndef display_header():\n    console.print(Panel.fit(\n        Text(\"My CLI Configuration Tool\", style=\"bold cyan\"),\n        title=\"Welcome\",\n        border_style=\"bright_magenta\"\n    ))\ndef reset_session():\n    global thread_id\n    thread_id = uuid.uuid4()",
+        "detail": "db_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "LLMManager",
+        "kind": 6,
+        "importPath": "llm.LLMManager",
+        "description": "llm.LLMManager",
+        "peekOfCode": "class LLMManager:\n    \"\"\"Manage the LLM model and its configuration\"\"\"\n    @staticmethod\n    def get_llm(provider,model: str) -> Union[OpenAI, ChatOpenAI, ChatOllama, ChatGroq,ChatGoogleGenerativeAI]:\n        \"\"\"\n        Returns an LLM instance based on the provider and model specified.\n        \"\"\"\n        provider = provider.lower()\n        if provider == \"openai\":\n            if model.startswith(\"gpt-4\") or model.startswith(\"gpt-3.5\"):",
+        "detail": "llm.LLMManager",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_DIR",
+        "kind": 5,
+        "importPath": "utils.constants",
+        "description": "utils.constants",
+        "peekOfCode": "CONFIG_DIR = Path.home() / \".db_chatcli\"\nCONFIG_FILE = CONFIG_DIR / \"config.json\"\nAVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
+        "detail": "utils.constants",
+        "documentation": {}
+    },
+    {
+        "label": "CONFIG_FILE",
+        "kind": 5,
+        "importPath": "utils.constants",
+        "description": "utils.constants",
+        "peekOfCode": "CONFIG_FILE = CONFIG_DIR / \"config.json\"\nAVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
+        "detail": "utils.constants",
+        "documentation": {}
+    },
+    {
+        "label": "AVAILABLE_MODEL_PROVIDERS",
+        "kind": 5,
+        "importPath": "utils.constants",
+        "description": "utils.constants",
+        "peekOfCode": "AVAILABLE_MODEL_PROVIDERS = ['openai','google','groq','ollama']",
+        "detail": "utils.constants",
+        "documentation": {}
+    }
+]
