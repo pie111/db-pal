@@ -12,8 +12,7 @@ from .utils import create_conn_url,reserved_words
 import asyncio
 import warnings
 import os
-from .utils.constants import AVAILABLE_MODEL_PROVIDERS
-
+from db_agent.utils.constants import AVAILABLE_MODEL_PROVIDERS
 
 warnings.filterwarnings("ignore")
 os.environ["PYTHONWARNINGS"] = "ignore"
@@ -26,7 +25,7 @@ thread_id = uuid.uuid4()
 
 def display_header():
     console.print(Panel.fit(
-        Text("AI-Powered PostgreSQL Assistant", style="bold cyan"),
+        Text("My CLI Configuration Tool", style="bold cyan"),
         title="Welcome",
         border_style="bright_magenta"
     ))
