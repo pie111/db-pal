@@ -8,7 +8,7 @@ from rich.prompt import Prompt
 from rich.live import Live
 from rich.spinner import Spinner
 from db_agent.agents import ReactiveAgent
-from utils import create_conn_url,reserved_words
+from db_agent.utils import create_conn_url,reserved_words
 import asyncio
 import warnings
 import os
