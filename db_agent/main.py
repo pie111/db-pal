@@ -3,12 +3,12 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 from InquirerPy import inquirer
-import config as local_config
+from config import save_api_key, save_db_info, load_config, get_model_info, get_db_info, save_model_config
 from rich.prompt import Prompt
 from rich.live import Live
 from rich.spinner import Spinner
-from .agents import ReactiveAgent
-from .utils import create_conn_url,reserved_words
+from agents import ReactiveAgent
+from utils import create_conn_url,reserved_words
 import asyncio
 import warnings
 import os
