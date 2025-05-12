@@ -7,7 +7,7 @@ from db_agent.config import save_api_key, save_db_info, load_config, get_model_i
 from rich.prompt import Prompt
 from rich.live import Live
 from rich.spinner import Spinner
-from agents import ReactiveAgent
+from db_agent.agents import ReactiveAgent
 from utils import create_conn_url,reserved_words
 import asyncio
 import warnings
