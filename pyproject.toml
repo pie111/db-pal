@@ -62,4 +62,5 @@ line-length = 88
 target-version = ["py38", "py39", "py310", "py311", "py312"]
 
 [tool.setuptools]
-packages = ["db_agent"]
+packages = ["db_agent", "db_agent.config", "db_agent.llm", "db_agent.agents", "db_agent.utils"]
+
