@@ -46,6 +46,7 @@ dependencies = [
     "sphinx-rtd-theme>=2.0.0",
     "mkdocs>=1.5.3",
     "mkdocs-material>=9.5.3",
+    "langchain-ollama>=0.3.2"
 ]
 
 
