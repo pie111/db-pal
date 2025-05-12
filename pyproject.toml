@@ -55,7 +55,7 @@ dependencies = [
     "langchain-google-genai",
     "langchain-groq>=0.3.2",
     "langchain-mcp-adapters>=0.0.11",
-    "langchain-openai>=0.3.16",
+    "langchain-openai",
     "langchain-text-splitters>=0.3.8",
 ]
 
