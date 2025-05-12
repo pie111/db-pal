@@ -3,7 +3,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 from InquirerPy import inquirer
-import db_agent.config as local_config
+import config as local_config
 from rich.prompt import Prompt
 from rich.live import Live
 from rich.spinner import Spinner
