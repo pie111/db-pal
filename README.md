@@ -4,9 +4,9 @@ Your friendly database companion - A powerful tool that uses LLM to help with da
 
 ## Installation
 
-### From PyPI
+
 ```bash
-pip install dbpal
+pip install git+https://github.com/pie111/db-pal.git
 ```
 
 ### From Source
