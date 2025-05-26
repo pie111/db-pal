@@ -177,7 +177,7 @@ class ReactiveAgent:
             
             thread_id = thread_id or str(uuid.uuid4())
             config = {"configurable": {"thread_id":thread_id }}
-            agent = create_react_agent(self.llm,tools,checkpointer=memory,state_modifier=sys_prompt)
+            agent = create_react_agent(self.llm,tools,checkpointer=memory,messages_modifier=sys_prompt)
             inputs = {"messages": [("user", message)]}
             response = await agent.ainvoke(inputs, config=config)
             last_message = response.get("messages")[-1]
